@@ -1,5 +1,6 @@
+ARG NOOBAA_BASE_TAG=noobaa-base
 ARG CENTOS_VER=9
-FROM noobaa-base AS server_builder
+FROM ${NOOBAA_BASE_TAG} AS server_builder
 
 RUN mkdir -p /noobaa_init_files
 

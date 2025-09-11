@@ -1,4 +1,5 @@
-FROM noobaa-builder AS noobaa-base
+ARG BUILDER_TAG=noobaa-builder
+FROM ${BUILDER_TAG} AS noobaa-base
 
 ######################################################################
 # Layers:

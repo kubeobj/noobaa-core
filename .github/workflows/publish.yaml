@@ -40,7 +40,7 @@ jobs:
           GIT_TAG=$(git describe --exact-match --abbrev=0 2>/dev/null || echo "latest")
           export BUILDER_TAG=ghcr.io/kubeobj/noobaa-builder:$GIT_TAG
           export NOOBAA_BASE_TAG=ghcr.io/kubeobj/noobaa-base:$GIT_TAG
-          export NOOBAA_TAG=ghcr.io/kubeobj/noobaa:$GIT_TAG
+          export NOOBAA_TAG=ghcr.io/kubeobj/noobaa-core:$GIT_TAG
           export CONTAINER_IMAGE_BUILDER_ARGS='--push --builder=container'
           export CONTAINER_PLATFORM='linux/amd64,linux/arm64'
 

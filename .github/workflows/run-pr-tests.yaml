@@ -81,7 +81,7 @@ jobs:
 
       - name: Check changed files
         id: changed_files
-        uses: tj-actions/changed-files@v44
+        uses: tj-actions/changed-files@v46
 
       - name: Should build noobaa base image
         id: should_build_base

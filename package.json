@@ -82,7 +82,7 @@
     "@azure/storage-blob": "12.27.0",
     "@google-cloud/storage": "7.16.0",
     "@smithy/node-http-handler": "3.3.3",
-    "ajv": "8.17.1",
+    "ajv": "8.18.0",
     "aws-sdk": "2.1692.0",
     "big-integer": "1.6.52",
     "bindings": "1.5.0",
